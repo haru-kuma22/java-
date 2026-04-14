@@ -3,7 +3,7 @@ package process;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Process_ {
+public class Process {
     // フィールド変数の定義
     private String greeting;
     private String location;
@@ -12,7 +12,7 @@ public class Process_ {
     private String category;
 
     // コンストラクタ（thisを使用）
-    public Process_() {
+    public Process() {
         this.greeting = "こんにちは！";
         this.location = "日本";
         this.food = "寿司";
